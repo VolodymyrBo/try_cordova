@@ -1,0 +1,257 @@
+.headerBlock{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #32B1B5;
+    height: 39px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+
+}
+
+.headerBlock h1{
+    font-weight: 300;
+    text-transform: none;
+    margin-top: 5px;
+    font-size: 15px;
+
+
+
+
+}
+
+.fa-arrow-left{
+    text-transform: none;
+    font-size: 15px;
+    display: block;
+    float: left;
+    margin-left: 16px;
+    margin-top: 9px;
+    padding: 0;
+}
+.content{
+
+    position: absolute;
+    border: 1px solid transparent;
+    top: 39px;
+    left: 13px;
+    width: 294px;
+    padding-top: 12px;
+    font-size: 12px;
+    color: #2cc8ee;
+    max-height: 351px;
+}
+
+.content h1{
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.profile {
+    background-color: transparent;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    color: #9A9A9A;
+
+}
+
+.profile .profileImg{
+    max-width: 104px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.action > div:nth-child(1){
+    padding: 0;
+}
+
+.action{
+    background-color: transparent;
+    border: 1px solid #2cc8ee;
+    border-radius: 5px;
+
+    font-size: 14px;
+}
+
+.action h1{
+    font-size: 14px;
+}
+
+.bottomBlock{
+    background-color: transparent;
+
+    position: fixed;
+    margin: 0 13px;
+    bottom: 10px;
+    width: 294px;
+    height: 36px;
+    z-index: 100;
+
+}
+
+.wrapp{
+
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.378;
+    text-align: center;
+}
+
+
+
+
+#datepick{
+    background-color: transparent;
+    border-color: transparent;
+    width: 236px;
+}
+
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #2CC8EE;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #2CC8EE;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #2CC8EE;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #2CC8EE;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+#insertData{
+
+    position: absolute;
+    border: 1px solid transparent;
+    top: 370px;
+    left: 13px;
+    width: 294px;
+    min-height: 76px;
+    max-height: 76px;
+    padding-top: 0px;
+    font-size: 14px;
+    overflow: auto;
+}
+
+
+
+input[type=radio] {
+    display: none;
+}
+
+label:before {
+    content: "";
+    display: inline-block;
+    margin-top: -3px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: -24px;
+    background-color: transparent;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+
+
+
+}
+
+input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #2cc8ee;
+    font-size: 38px;
+    text-align: center;
+    line-height: 24px;
+
+}
+
+.radio-inline{
+    padding-right: 16px;
+    margin-left: 35px;
+    margin-top: 14px;
+    padding-left: 8px;
+}
+
+body > section.content > div.action > label:nth-child(8)
+{
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+
+}
+
+#calendarAction > p{
+    padding-left: 15px;
+}
+
+#addChild{
+    background-color: #2cc8ee;
+    border-color: #2cc8ee;
+    border-radius: 0;
+}
+
+.childrenBox{
+    border: 1px solid #FEA8C6;
+    border-radius: 5px;
+    color: #FEA8C6;
+    background-color: rgba(254, 168, 198, 0.2) ;
+    margin-bottom: 4px;
+}
+
+.boxData, .closeChildrenBox{
+    display: inline-block;
+    padding: 7px;
+}
+
+#ui-datepicker-div{
+    z-index: 200 !important;
+}
+
+.boxData{
+
+
+}
+
+.closeChildrenBox{
+    position: absolute;
+    right: 13px;
+}
+
+
+#nextBtn{
+    background-color: #fe686a;
+    border-color: #fe686a;
+
+}
+
+
+hr{
+    width: 264px;
+    color: #2cc8ee;
+    background-color: #2cc8ee;
+    height: 1px;
+    border: 0 none;
+    margin: 0 13px;
+}
