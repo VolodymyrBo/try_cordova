@@ -9,8 +9,6 @@
     font-family: "Open Sans", sans-serif;
     color: rgb(255, 255, 255);
     text-align: center;
-
-
 }
 
 .headerBlock h1{
@@ -18,10 +16,6 @@
     text-transform: none;
     margin-top: 5px;
     font-size: 15px;
-
-
-
-
 }
 
 .fa-arrow-left{
@@ -33,13 +27,13 @@
     margin-top: 9px;
     padding: 0;
 }
-.content{
 
+.content{
     position: absolute;
     border: 1px solid transparent;
     top: 39px;
     left: 13px;
-    width: 294px;
+    right: 13px;
     padding-top: 12px;
     font-size: 12px;
     color: #2cc8ee;
@@ -50,24 +44,20 @@
     font-size: 18px;
     margin: 10px 0;
     font-family: "Open Sans", sans-serif;
-
 }
 
 .profile {
     background-color: transparent;
-
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     text-transform: none;
     color: #9A9A9A;
-
 }
 
 .profile .profileImg{
     max-width: 104px;
     display: block;
     margin: 0 auto;
-
 }
 
 .action > div:nth-child(1){
@@ -78,28 +68,22 @@
     background-color: transparent;
     border: 1px solid #2cc8ee;
     border-radius: 5px;
-
     font-size: 14px;
 }
 
 .action h1{
     font-size: 14px;
+    margin: 12px 0;
 }
 
 .bottomBlock{
     background-color: transparent;
-
     position: fixed;
-    margin: 0 13px;
-    bottom: 10px;
-    width: 294px;
+    right: 13px;
+    left: 13px;
+    bottom: 7px;
     height: 36px;
     z-index: 100;
-
-}
-
-.wrapp{
-
 }
 
 button{
@@ -111,15 +95,11 @@ button{
     text-align: center;
 }
 
-
-
-
 #datepick{
     background-color: transparent;
     border-color: transparent;
     width: 236px;
 }
-
 
 /* do not group these rules */
 *::-webkit-input-placeholder {
@@ -144,20 +124,17 @@ button{
 
 
 #insertData{
-
     position: absolute;
     border: 1px solid transparent;
     top: 370px;
     left: 13px;
-    width: 294px;
+    right: 13px;
     min-height: 76px;
     max-height: 76px;
     padding-top: 0px;
     font-size: 14px;
     overflow: auto;
 }
-
-
 
 input[type=radio] {
     display: none;
@@ -174,9 +151,6 @@ label:before {
     background-color: transparent;
     border: 1px solid #E7E7E7;
     border-radius: 50%;
-
-
-
 }
 
 input[type=radio]:checked + label:before {
@@ -185,7 +159,6 @@ input[type=radio]:checked + label:before {
     font-size: 38px;
     text-align: center;
     line-height: 24px;
-
 }
 
 .radio-inline{
@@ -195,11 +168,9 @@ input[type=radio]:checked + label:before {
     padding-left: 8px;
 }
 
-body > section.content > div.action > label:nth-child(8)
-{
+body > section.content > div.action > label:nth-child(8){
     padding-right: 0 !important;
     margin-right: 0 !important;
-
 }
 
 #calendarAction > p{
@@ -229,11 +200,6 @@ body > section.content > div.action > label:nth-child(8)
     z-index: 200 !important;
 }
 
-.boxData{
-
-
-}
-
 .closeChildrenBox{
     position: absolute;
     right: 13px;
@@ -243,15 +209,100 @@ body > section.content > div.action > label:nth-child(8)
 #nextBtn{
     background-color: #fe686a;
     border-color: #fe686a;
-
 }
 
 
 hr{
-    width: 264px;
     color: #2cc8ee;
     background-color: #2cc8ee;
     height: 1px;
     border: 0 none;
     margin: 0 13px;
+}
+
+
+@media screen and (max-device-width: 320px) and (min-device-height: 530px){
+    .headerBlock {
+        height: 48px;
+    }
+    .headerBlock h1 {
+        margin-top: 13px;
+    }
+
+    .fa-arrow-left {
+        margin-top: 16px;
+    }
+
+    .content {
+        top: 48px;
+        padding-top: 21px;
+    }
+
+    .content h1 {
+        margin: 19px 0;
+    }
+
+    .action h1 {
+        margin: 12px 0;
+    }
+
+    #insertData {
+        top: 410px;
+        min-height: 80px;
+        max-height: 80px;
+    }
+
+}
+
+@media screen and (min-device-width: 358px) and (min-device-height: 620px){
+    .headerBlock {
+        height: 57px;
+    }
+    .headerBlock h1 {
+        margin-top: 13px;
+        font-size: 20px;
+    }
+
+    .fa-arrow-left {
+        margin-top: 16px;
+    }
+
+    .content {
+        top: 57px;
+        padding-top: 23px;
+    }
+
+    .content h1 {
+        margin: 21px 0;
+        font-size: 26px;
+    }
+
+    .action{
+        font-size: 18px;
+    }
+
+    .action h1 {
+        margin: 12px 0;
+        font-size: 20px;
+
+    }
+
+    #insertData {
+        top: 477px;
+        min-height: 80px;
+        max-height: 80px;
+    }
+
+    .bottomBlock{
+        bottom: 24px;
+        height: 41px;
+    }
+
+    .profile .profileImg {
+        max-width: 119px;
+    }
+
+    #datepick {
+        width: 286px;
+    }
 }
